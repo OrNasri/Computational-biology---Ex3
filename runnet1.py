@@ -54,4 +54,4 @@ def runnet(weights_file, data_file, output_file):
         for line in temp:
             file.write(line + "\n")
             
-runnet('wnet1.txt', 'test-nn1.txt', 'result-nn1.txt')
+runnet('wnet1.txt', 'testnet1.txt', 'result-nn1.txt')
